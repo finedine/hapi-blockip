@@ -1,6 +1,6 @@
 {
   "name": "@bambulabs/hapi-blockip",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A simple Hapi.js plugin to block pre-defined IP addresses.",
   "main": "lib/index.js",
   "scripts": {
