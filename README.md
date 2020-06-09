@@ -11,7 +11,7 @@ hapi-blockip responses to the requests coming from blocked IP addreses with [403
 ## Installation
 
 ```bash
-npm i npm i @bambulabs/hapi-blockip
+npm i @bambulabs/hapi-blockip
 ```
 
 ## Usage
