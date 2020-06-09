@@ -2,7 +2,7 @@
 
 [![NPM version][npm-image]][npm-url]
 
-hapi-blockip is a [pip](https://hapi.dev/) plugin for blocking IP addresses.
+hapi-blockip is a [hapi](https://hapi.dev/) plugin for blocking IP addresses.
 
 ## What hapi-blockip does?
 
@@ -11,13 +11,13 @@ hapi-blockip responses to the requests coming from blocked IP addreses with [403
 ## Installation
 
 ```bash
-npm i hapi-blockip
+npm i npm i @bambulabs/hapi-blockip
 ```
 
 ## Usage
 
 ```nodejs
- const HapiBlockIP = require("hapi-blockip");
+ const HapiBlockIP = require("@bambulabs/hapi-blockip");
 
  await server.register({
    plugin: HapiBlockIP,
@@ -39,5 +39,5 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 [MIT](https://choosealicense.com/licenses/mit/)
 
-[npm-image]: https://img.shields.io/npm/v/node-posrocket.svg?style=flat
-[npm-url]: https://www.npmjs.com/package/node-posrocket
+[npm-image]: https://img.shields.io/npm/v/@bambulabs/hapi-blockip.svg?style=flat
+[npm-url]: https://www.npmjs.com/package/@bambulabs/hapi-blockip
