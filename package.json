@@ -1,0 +1,26 @@
+{
+  "name": "hapi-blockip",
+  "version": "0.0.1",
+  "description": "A simple Hapi.js plugin to block pre-defined IP addresses.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "lab -a @hapi/code -t 100 -v -e test"
+  },
+  "keywords": [
+    "hapi",
+    "hapijs",
+    "block",
+    "blacklist",
+    "ip"
+  ],
+  "author": "Emre Alparslan",
+  "license": "MIT",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1"
+  },
+  "devDependencies": {
+    "@hapi/code": "^8.0.1",
+    "@hapi/hapi": "^19.1.1",
+    "@hapi/lab": "^22.0.4"
+  }
+}
